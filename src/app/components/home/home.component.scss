@@ -1,0 +1,18 @@
+// component css goes here
+#home-container {
+  width: 100%;
+  height: 100%;
+  color: white;
+  .header {
+    background-color: #7f8c8d;
+    width: 100%;
+    .title {
+      font-size: larger;
+    }
+  }
+  .menu {
+    // background-color: aquamarine;
+    height: 100%;
+    margin-bottom: 2%;
+  }
+}
