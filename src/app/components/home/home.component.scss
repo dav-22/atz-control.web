@@ -2,17 +2,39 @@
 #home-container {
   width: 100%;
   height: 100%;
-  color: white;
+  color: #4c4845;
   .header {
-    background-color: #7f8c8d;
+    // background-color: #7f8c8d;
+    background-color: white;
     width: 100%;
     .title {
       font-size: larger;
+      margin-left: 3%;
     }
   }
   .menu {
     // background-color: aquamarine;
     height: 100%;
-    margin-bottom: 2%;
+    // margin-bottom: 2%;
+    // margin-right: 3%;
+    .sub-menu{
+      width: 90%;
+
+      span{
+        text-align: center;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .body{
+    width: 100%;
+    
+    .section{
+      width: 100%;
+      height: 250px;
+      background-color: black;
+    }
+    
   }
 }

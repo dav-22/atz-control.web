@@ -3,26 +3,31 @@
   <!-- header -->
   <div
     class="header"
-    fxFlex="25"
+    fxFlex="150px"
     fxLayout="row"
     fxLayoutAlign="space-between center"
   >
-    <div fxFlex="20" fxLayoutAlign="center center" class="title">
+    <div fxFlex="15" fxLayoutAlign="start center" class="title">
       <span>ATZ Control</span>
     </div>
-    <div class="menu" fxFlex fxLayoutAlign="space-evenly end">
-      <span>menu</span>
-      <span>menu</span>
-      <span>menu</span>
-      <span>menu</span>
+    <div class="menu" fxFlex fxLayoutAlign="center center">
+      <div class="sub-menu" fxLayoutAlign="space-evenly center">
+        <span fxFlex="30">Camaras de seguridad</span>
+        <span fxFlex="30">Red de datos y networking</span>
+        <span fxFlex="30">¿Quienes somos?</span>
+      </div>
     </div>
-    <div class="social" fxFlex="20" fxLayoutAlign="center center">
-      <mat-icon>airplane</mat-icon>
+    <div class="social" fxFlex="15" fxLayoutAlign="center center">
+      <!-- <mat-icon>code</mat-icon> -->
+      <i class="fab fa-instagram"></i>
     </div>
   </div>
 
   <!-- body -->
-  <div fxFlex></div>
+  <div fxFlex class="body" fxLayout="column">
+    <!-- <img src="../../../assets/images/domo.jpg" alt=""> -->
+    <app-slider></app-slider>
+  </div>
 
   <!-- footer -->
 </div>
