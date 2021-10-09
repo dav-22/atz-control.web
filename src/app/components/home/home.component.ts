@@ -5,4 +5,13 @@ import { Component } from '@angular/core';
   templateUrl: 'home.component.html',
   styleUrls: ['home.component.scss'],
 })
-export class HomeComponent {}
+export class HomeComponent {
+  height: number;
+
+
+  ngOnInit(): void {
+    this.height = window.innerHeight;
+    console.log(this.height);
+  }
+}
+

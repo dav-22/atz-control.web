@@ -1,33 +1,43 @@
 <!--component html goes here -->
 <div id="home-container" fxLayout="column">
   <!-- header -->
-  <div
-    class="header"
-    fxFlex="150px"
-    fxLayout="row"
-    fxLayoutAlign="space-between center"
-  >
-    <div fxFlex="15" fxLayoutAlign="start center" class="title">
-      <span>ATZ Control</span>
-    </div>
-    <div class="menu" fxFlex fxLayoutAlign="center center">
-      <div class="sub-menu" fxLayoutAlign="space-evenly center">
-        <span fxFlex="30">Camaras de seguridad</span>
-        <span fxFlex="30">Red de datos y networking</span>
-        <span fxFlex="30">¿Quienes somos?</span>
+  <div fxLayout="column" [fxFlex]="height + 'px'">
+    <div
+      class="header"
+      fxFlex="20"
+      fxLayout="row"
+      fxLayoutAlign="space-between center"
+    >
+      <div fxFlex="15" fxLayoutAlign="start center" class="title">
+        <span>ATZ Control</span>
+      </div>
+      <div class="menu" fxFlex fxLayoutAlign="center center">
+        <div class="sub-menu" fxLayoutAlign="space-evenly center">
+          <span fxFlex="30">Camaras de seguridad</span>
+          <span fxFlex="30">Red de datos y networking</span>
+          <span fxFlex="30">¿Quienes somos?</span>
+        </div>
+      </div>
+      <div class="social" fxFlex="15" fxLayoutAlign="center center">
+        <!-- <mat-icon>code</mat-icon> -->
+        <i class="fab fa-instagram"></i>
       </div>
     </div>
-    <div class="social" fxFlex="15" fxLayoutAlign="center center">
-      <!-- <mat-icon>code</mat-icon> -->
-      <i class="fab fa-instagram"></i>
+    <div fxFlex style="background-color: red;">
+      <app-slider></app-slider>
     </div>
   </div>
-
-  <!-- body -->
-  <div fxFlex class="body" fxLayout="column">
-    <!-- <img src="../../../assets/images/domo.jpg" alt=""> -->
-    <app-slider></app-slider>
+  <div style="background-color: aqua;" fxFlex="400px">
+    
+  </div>
+  <div style="background-color: blue;" fxFlex="400px">
+    
   </div>
 
+
+
   <!-- footer -->
+  <div style="background-color: black;" fxFlex="250px">
+
+  </div>
 </div>
